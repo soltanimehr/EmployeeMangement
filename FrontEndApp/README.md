@@ -1,5 +1,5 @@
 
-For running the raectjs app, download the frontEnd app folder and then run the command line go to the root folder of the project after that follow the below commands:
+For running the raectjs app, download the FrontEnd app folder and then run the command line go to the root folder of the project after that follow the below commands:
   
 
 ### `npm install
