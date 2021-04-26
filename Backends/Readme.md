@@ -15,7 +15,7 @@ The mentioned instruction will create a Jar file that you can find it in the tar
 
  java -jar jarfilename.jar
 
-* For testing make sure that both applications running properly. 
+* For testing make sure both applications running properly. 
 
 
 
