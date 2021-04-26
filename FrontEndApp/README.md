@@ -1,3 +1,6 @@
+docker build  -t "employee-react"  .
+ docker run -p 3000:80 employee-react
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
