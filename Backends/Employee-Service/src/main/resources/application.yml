@@ -1,0 +1,23 @@
+server:
+  port: 9005
+  error:
+    include-message: always
+    include-binding-errors: always
+
+spring:
+  thymeleaf:
+    enabled=false:
+
+  datasource:
+    password: postgres
+    url: jdbc:postgresql://localhost:5432/registeration
+    username: postgres
+  jpa:
+    hibernate:
+      ddl-auto:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+    show-sql: true
+
