@@ -115,7 +115,7 @@ class AddUpdateEmployeeComponent extends Component {
                   value={this.state.name}
                   onChange={this.changeNameHandler}
                   className={"form-control"}
-                  placeholder="Enter Name of Employee"
+                  placeholder="Please enter name"
                 />
               </Form.Row>
               <Form.Row>
@@ -128,7 +128,7 @@ class AddUpdateEmployeeComponent extends Component {
                   value={this.state.surName}
                   onChange={this.changeSurNameHandler}
                   className={"form-control"}
-                  placeholder="Enter SurName of Employee"
+                  placeholder="Please enter surName "
                 />
               </Form.Row>
               <Form.Row>
@@ -141,7 +141,7 @@ class AddUpdateEmployeeComponent extends Component {
                   value={this.state.name}
                   value={this.state.email}
                   onChange={this.changeEmailHandler}
-                  placeholder="Enter Email of Employee ex: sample@mydomain.com"
+                  placeholder="Please enter email "
                 />
               </Form.Row>
               <Form.Row>
@@ -153,7 +153,7 @@ class AddUpdateEmployeeComponent extends Component {
                   name="address"
                   value={this.state.address}
                   onChange={this.changeAddressHandler}
-                  placeholder="ex:Straße Number  Post Code City"
+                  placeholder="Please enter address"
                 />
               </Form.Row>
               <Form.Row>
@@ -166,7 +166,7 @@ class AddUpdateEmployeeComponent extends Component {
                   value={this.state.salary}
                   onChange={this.changeSalaryHandler}
                   className={"form-control"}
-                  placeholder="Salary 50000$"
+                  placeholder="Please enter salary: 50000"
                 />
               </Form.Row>
             </Card.Body>
