@@ -38,7 +38,9 @@ class AddUpdateEmployeeComponent extends Component {
             companyId: data.employeeRequestDto.companyId,
             companyName: data.companyDto.name,
           })
-        );
+        ).catch(function(err) {
+          console.log(err);
+      });
     }
   }
   saveOrUpdateEmployee = (e) => {
